@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Задание 2</title>
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="logo">
+        <nav>
+            <a href="">Ссылка 1</a>
+            <a href="">Ссылка 2</a>
+            <a href="">Ссылка 3</a>
+        </nav>
+        <h1>Название сайта</h1>
+    </header>
+
+    <main>
+        <div>
+            <ul>
+                <li><a href="http://kubsu.ru">Главная КубГУ (HTTP)</a></li>
+                <li><a href="https://kubsu.ru">Главная КубГУ (HTTPS)</a></li>
+                <li><a href="https://www.dns-shop.ru/search/?q=Vr&category=846d3b4f73fb4e77&brand=meta">Ссылка с тремя параметрами</a></li>
+                <li><a href="https://www.kinopoisk.ru/?id=476">Ссылка с параметром id в URL</a></li>
+            </ul>
+        </div>
+        <div>
+            <table>
+                <!-- Строка-заголовок (1-я строка) -->
+                <tr>
+                    <th>День</th>
+                    <th>1 пара</th>
+                    <th>2 пара</th>
+                    <th>3 пара</th>
+                </tr>
+                <!-- 2-я строка -->
+                <tr>
+                    <td>Понедельник</td>
+                    <td>Высшая математика</td>
+                    <td>Программирование</td>
+                    <td>Дискретная математика</td>
+                </tr>
+                <!-- 3-я строка с объединением ячеек по горизонтали (colspan) -->
+                <tr>
+                    <td>Вторник</td>
+                    <td colspan="3">День самостоятельной работы (практика дома)</td>
+                </tr>
+                <!-- 4-я строка -->
+                <tr>
+                    <td>Среда</td>
+                    <td>Веб-разработка</td>
+                    <td>Веб-разработка</td>
+                    <td>Английский язык</td>
+                </tr>
+                <!-- 5-я строка с объединением ячеек по вертикали (rowspan) -->
+                <tr>
+                    <td>Четверг</td>
+                    <td rowspan="2">Командный проект по разработке</td>
+                    <td>Физическая культура</td>
+                    <td>Электив</td>
+                </tr>
+                <!-- 6-я строка -->
+                <tr>
+                    <td>Пятница</td>
+                    <td>Базы данных</td>
+                    <td>Базы данных</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <form>
+                <label>
+                    ФИО:<br>
+                    <input name="fio" type="text" placeholder="Введите ваше ФИО">
+                </label><br>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Привет</p>
+    </footer>
+</body>
+</html>
