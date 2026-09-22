@@ -20,7 +20,7 @@ header {
     position: relative;
 }
 
-img {
+.logo {
     display: inline-block;
     margin: 10px;
 
@@ -46,17 +46,29 @@ main {
 
 }
 
+ul {
+    display: block; 
+    margin: 0 auto;     
+    text-align: center;      
+    list-style-position: inside; 
+}
+
+ol ol, ul ul, ul ol, ol ul {
+    padding-left: 30px; 
+    margin: 5px 0;       
+}
+
+
+
 footer {
     width: 100%;
+    height:100px;
+    line-height: 100px;
     background-color: gray;
 }
 
-main {
-    text-align: center;
-}
-
 ul, table, form{
-    margin: 10px 0px 10px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 table {
@@ -76,10 +88,10 @@ td {
     background-color: grey;
 }
 
-form label:not(.radioGender) {
-    display: block;
-    margin: 5px 0px 5px 0px;
+form {
+    text-align: center;
 }
+
 
 
 
